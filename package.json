@@ -1,0 +1,96 @@
+{
+  "name": "ts-cra-rtk-chakraui-example",
+  "version": "0.1.0",
+  "author": "treetips",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "jest": "jest",
+    "storybook": "start-storybook -p 6006 -s public",
+    "json-server": "json-server json-server.js --routes json-server-routes.json --port 3001"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^1.0.14",
+    "@chakra-ui/react": "^1.6.5",
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "@reduxjs/toolkit": "^1.6.1",
+    "axios": "^0.21.1",
+    "connected-react-router": "^6.9.1",
+    "final-form": "^4.20.2",
+    "framer-motion": "^4.1.17",
+    "http-status-codes": "^2.1.4",
+    "js-cookie": "^2.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-final-form": "^6.5.3",
+    "react-helmet-async": "^1.0.9",
+    "react-icons": "^4.2.0",
+    "react-intl": "^5.20.6",
+    "react-redux": "^7.2.4",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "sass": "^1.36.0",
+    "web-vitals": "^2.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@storybook/addon-actions": "^6.3.5",
+    "@storybook/addon-essentials": "^6.3.5",
+    "@storybook/addon-links": "^6.3.5",
+    "@storybook/addon-viewport": "^6.3.5",
+    "@storybook/react": "^6.3.5",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.0",
+    "@types/axios": "^0.14.0",
+    "@types/http-status-codes": "^1.2.0",
+    "@types/jest": "^26.0.24",
+    "@types/js-cookie": "^2.2.7",
+    "@types/next-redux-wrapper": "^3.0.0",
+    "@types/node": "^16.4.2",
+    "@types/react": "^17.0.15",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-helmet-async": "^1.0.3",
+    "@types/react-icons": "^3.0.0",
+    "@types/react-intl": "^3.0.0",
+    "@types/react-router": "^5.1.16",
+    "@types/react-router-dom": "^5.1.8",
+    "@types/redux": "^3.6.31",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.6.0",
+    "json-server": "^0.16.3",
+    "npm-check-updates": "^11.8.3",
+    "prettier": "^2.3.2",
+    "storybook-addon-performance": "^0.16.0",
+    "ts-jest": "^26.5.6",
+    "typescript": "^4.3.5"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
