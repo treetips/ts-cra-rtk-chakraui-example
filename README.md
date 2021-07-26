@@ -25,6 +25,12 @@
 - Support dark mode.
 - Support i18n (english and japanese).
 
+## Screen Image
+
+https://user-images.githubusercontent.com/12574048/127023496-5efab00a-4541-487c-92ee-94e5bc4f2ac2.mp4
+
+https://user-images.githubusercontent.com/12574048/127023547-4b3ef367-ad3e-4145-b4c0-3dde792799fa.mp4
+
 ## Usage
 
 ```sh
